@@ -1,0 +1,112 @@
+---
+format: 
+  pdf:
+    documentclass: article
+    geometry:
+      - margin=1in
+      - top=0.75in
+    fontsize: 11pt
+    mainfont: Times New Roman
+    linestretch: 1.1
+header-includes:
+  - \usepackage{titlesec}
+  - \usepackage{hyperref}
+  - \usepackage{enumitem}
+  - \usepackage[dvipsnames]{xcolor}
+  - \usepackage{parskip}  # Added for consistent paragraph spacing
+  - |
+    \newcommand{\sectionline}{%
+      \noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}%
+    }
+  - |
+    \titleformat{\section}
+      {\normalfont\large\bfseries}
+      {}
+      {0em}
+      {\uppercase}
+  - \titlespacing*{\section}{0pt}{*1}{*0.5}  # Simplified spacing
+  - \setlist[itemize]{leftmargin=*}
+  - \renewcommand{\labelitemi}{$\bullet$}
+---
+
+\begin{center}
+\Large\textbf{Samvardhan V G}\\
+\normalsize
+samvardhan777@gmail.com\\
+\href{https://www.linkedin.com/in/samvardhan-v-g-b5277b170}{\textcolor{blue}{LinkedIn}} \textbar{} 
+\href{https://github.com/samvardhan777}{\textcolor{blue}{GitHub}} \textbar{} 
+\href{https://medium.com/@samvardhan777}{\textcolor{blue}{Medium}}
+\end{center}
+
+\section{PROFESSIONAL EXPERIENCE}\sectionline
+
+\vspace{0.5em}
+
+\noindent
+\textbf{Thoughtworks} -- \textit{Data Engineer}  
+\hfill \textit{July 2022 -- Present}  
+
+\noindent
+\textbf{Health \& Pharma Domain Project (July 2022-Dec 2023)}  
+
+\begin{itemize}
+  \item \textbf{Focused Implementation}: Implemented the Data Mesh paradigm to enable a decentralized, domain-oriented data architecture. The primary objective was to develop data products while avoiding silos and promoting self-serve capabilities.
+  \item \textbf{Data Ingestion}: Supported the team in designing and implementing pipelines for seamless ingestion of data from multiple sources into Snowflake.
+  \item \textbf{Data Mesh Expertise}: Gained hands-on experience in building domain-specific data products adhering to the principles of Data Mesh to foster interoperability and eliminate silos.
+  \item \textbf{Self-Serve Platform Development}: Contributed to creating a self-serve data platform and standardized data product templates to enhance scalability and ensure consistency across the organization.
+\end{itemize}
+
+\vspace{0.5em}
+
+\noindent
+\textbf{Consulting Data Platform POC (Jan 2024 -- March 2024)}  
+
+\begin{itemize}
+  \item Supported a consulting engagement with a data platform company by advising on best practices for implementing the Data Mesh paradigm.
+  \item Improved the client’s product design by providing recommendations for custom tool offerings tailored to specific use cases, including cataloging and visualization.
+  \item Contributed to enhancing their platform's capabilities to better align with modern data architecture principles and customer needs.
+\end{itemize}
+
+\vspace{0.5em}
+
+\noindent
+\textbf{Retail E-commerce Sector (Mar 2024 -- Present)}  
+
+\begin{itemize}
+  \item \textbf{Role}: Serving as a \textbf{Senior Data Engineer}, responsible for building and optimizing \textbf{ELT pipelines} from various data sources.
+  \item \textbf{Tech Stack}: Worked extensively with \textbf{GCP tools}, including \textbf{Dataflow}, \textbf{Cloud Functions}, \textbf{Airflow}, \textbf{BigQuery}, and \textbf{Exasol} (an in-memory warehouse).
+  \item \textbf{Pipeline Optimization}: Supported the team in revising the legacy ELT design, which resulted in a \textbf{12\% reduction in cloud billing costs}.
+  \item \textbf{Data Silos Elimination}: Improved the \textbf{data catalog} in the domain, thereby eliminating data silos and enhancing discoverability and accessibility of data assets.
+\end{itemize}
+
+\vspace{0.5em}
+\vspace{0.5em}
+
+
+\section{SKILLS/INTERESTS/MISCELLANEOUS}\sectionline
+
+\vspace{0.5em}
+
+\noindent
+\textbf{Technical Skills:} \
+\textbullet{} \textit{dbt}, \textit{Snowflake}, \textit{Databricks}, \textit{PySpark}, \textit{Airflow}, \textit{GCP Suite}, \textit{Docker (Containerization)} Fundamental \textit{CI/CD} skills , \textit{python}, \textit{SQL}
+\vspace{0.5em}
+
+
+\textbf{Hobbies:} \
+\textbullet{} Exploring \textit{home automation} projects, such as building and optimizing \textit{media servers}.
+
+\section{LEADERSHIP EXPERIENCE}\sectionline
+
+\vspace{0.5em}
+
+\noindent
+\textbf{Mentorship and Training:} Acted as a mentor to new data engineers, guiding them in understanding best practices and organizational workflows. Curated comprehensive course content to support their onboarding and skill development. Additionally, took on the role of a trainer to facilitate their learning journey.
+
+
+\section{EDUCATION}\sectionline
+
+\vspace{0.5em}
+
+\noindent
+\textbf{Bachelor of Engineering (BE)} in Electronics and Communication Engineering, Anna University

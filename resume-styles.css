@@ -1,0 +1,103 @@
+/* Main styles for resume */
+:root {
+    --primary-color: #333;
+    --secondary-color: #666;
+    --border-color: #2b3a67;
+    --heading-size: 24pt;
+    --subheading-size: 14pt;
+    --text-size: 11pt;
+  }
+  
+  .page-container {
+    max-width: 8.5in;
+    margin: 0 auto;
+    padding: 0.5in;
+    font-family: "Times New Roman", Times, serif;
+    font-size: var(--text-size);
+    line-height: 1.4;
+    color: var(--primary-color);
+  }
+  
+  /* Header Section */
+  .header-name {
+    text-align: center;
+    font-size: var(--heading-size);
+    margin-bottom: 0.2em;
+    font-weight: bold;
+  }
+  
+  .contact-info {
+    text-align: center;
+    margin-bottom: 1em;
+    color: var(--secondary-color);
+  }
+  
+  .profile-summary {
+    text-align: justify;
+    margin: 1em 0;
+    font-style: italic;
+  }
+  
+  /* Section Styles */
+  .section-heading {
+    color: var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    font-size: var(--subheading-size);
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Experience Blocks */
+  .experience-block {
+    margin-bottom: 1em;
+  }
+  
+  .experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.3em;
+  }
+  
+  .company-name {
+    font-weight: bold;
+  }
+  
+  .position-title {
+    font-style: italic;
+  }
+  
+  .date-location {
+    text-align: right;
+    color: var(--secondary-color);
+  }
+  
+  /* Lists */
+  .experience-list {
+    margin: 0.5em 0 1em 1.2em;
+    padding: 0;
+  }
+  
+  .experience-list li {
+    margin-bottom: 0.4em;
+    text-align: justify;
+  }
+  
+  /* Education Section */
+  .education-block {
+    margin-bottom: 1em;
+  }
+  
+  .education-details {
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type: none;
+  }
+  
+  /* Skills Section */
+  .skills-list {
+    margin: 0.5em 0;
+    padding-left: 1.2em;
+  }
